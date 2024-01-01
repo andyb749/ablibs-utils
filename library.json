@@ -1,6 +1,6 @@
 {
     "name": "ablibs-utils",
-    "version": "0.1.0-alpha",
+    "version": "0.2.0-alpha",
     "description": "Utility functions for Arduino",
     "keywords": "I2C",
     "repository": {
