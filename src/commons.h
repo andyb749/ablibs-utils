@@ -67,14 +67,14 @@
 #endif
 
 #ifndef _BV
-    #define _BV(bit)                (1<<bit)
+    #define _BV(bit)                (1L << bit)
 #endif
 
 #ifdef __cpp
 extern "C" {
 #endif
 
-void strprintf(Stream& str, const char * fmt, ...);
+void strprintf(Print& str, const char * fmt, ...);
 
 #ifdef __cpp
 }
